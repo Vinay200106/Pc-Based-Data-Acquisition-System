@@ -29,8 +29,8 @@ This project implements a PC-based data acquisition system using the LPC2148 mic
 3.Flash Magic (Flashing Tool)
 4.Serial Terminal (e.g., Tera Term / RealTerm / PuTTY)
 #####  Workflow
-System Initialization: UART, RTC, ADC, LCD, Keypad, and external interrupt setup.
-Monitoring: Temperature is read via ADC and timestamped.
-Data Logging: Formatted output sent to PC and displayed on LCD.
-Fault Detection: If temperature > 45°C, triggers alert and logs as [ALERT].
-Time Editing Mode: Activated via external interrupt. User can edit time using the keypad.
+1.System Initialization: UART, RTC, ADC, LCD, Keypad, and external interrupt setup.
+2.Monitoring: Temperature is read via ADC and timestamped.
+3.Data Logging: Formatted output sent to PC and displayed on LCD.
+4.Fault Detection: If temperature > 45°C, triggers alert and logs as [ALERT].
+5.Time Editing Mode: Activated via external interrupt. User can edit time using the keypad.
