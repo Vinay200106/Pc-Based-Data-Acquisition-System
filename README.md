@@ -2,7 +2,7 @@
 An embedded system project using LPC2148 that monitors temperature via LM35 sensor, timestamps data using RTC, logs it to a PC via UART, and provides real-time fault alerts if temperature exceeds a threshold.
 ## Overview
 This project implements a PC-based data acquisition system using the LPC2148 microcontroller. It continuously monitors temperature using the LM35 sensor, timestamps readings via the on-chip RTC, and sends the data to a PC using UART communication. When the temperature exceeds a defined threshold (e.g., 45°C), the system triggers a fault alert via an LED or buzzer and logs the alert.
-### Features
+#  Features
 1.📡 Real-time temperature monitoring using LM35
 2.⏰ Timestamping using RTC
 3.📟 Real-time data display on 16x2 LCD
@@ -11,9 +11,9 @@ This project implements a PC-based data acquisition system using the LPC2148 mic
 6.🚨 Fault alert with LED/Buzzer
 7.✅ Clear display formatting for normal and alert messages
 
-#### Requirements
+# Requirements
 
-#Hardware
+# Hardware
 
 1.LPC2148 Microcontroller
 2.LM35 Temperature Sensor
@@ -23,12 +23,12 @@ This project implements a PC-based data acquisition system using the LPC2148 mic
 6.LED or Buzzer (for alert)
 7.MAX232 (for UART communication)
 
-## Software
+# Software
 1.Embedded C
 2.Keil µVision (Compiler)
 3.Flash Magic (Flashing Tool)
 4.Serial Terminal (e.g., Tera Term / RealTerm / PuTTY)
-#####  Workflow
+#  Workflow
 1.System Initialization: UART, RTC, ADC, LCD, Keypad, and external interrupt setup.
 2.Monitoring: Temperature is read via ADC and timestamped.
 3.Data Logging: Formatted output sent to PC and displayed on LCD.
